@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/Zataak-se/static/css/main.21e68b72.css",
+    "main.js": "/github.io/Zataak-se/static/js/main.e61d5eee.js",
+    "index.html": "/github.io/Zataak-se/index.html",
+    "main.21e68b72.css.map": "/github.io/Zataak-se/static/css/main.21e68b72.css.map",
+    "main.e61d5eee.js.map": "/github.io/Zataak-se/static/js/main.e61d5eee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21e68b72.css",
+    "static/js/main.e61d5eee.js"
+  ]
+}
