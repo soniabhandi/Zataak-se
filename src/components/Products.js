@@ -6,6 +6,7 @@ import FilterPanel from "./FilterPanel";
 const Products = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [count, setcount] = useState(0);
   const [filters, setFilters] = useState({
     categories: [],
     ratings: [],
@@ -78,16 +79,16 @@ const Products = () => {
 
   return (
     <div className="flex justify-between px-4 sm:px-6 lg:px-8 py-4 space-x-8">
-      <div className="w-1/4 mt-10 pt-10">
+      <div className="w-1/4 mt-10 pt-10 ml-10">
         <FilterPanel filters={filters} onFilterChange={handleFilterChange} />
       </div>
-      <div className="flex-grow max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="flex-grow max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 mr-10">
         <div className="flex justify-between items-center mb-6">
           <h4>Showing {filteredProducts.length} products</h4>
           <div className="flex items-center">
-            <p className="mt-1 py-1 pr-3">Sort by:</p>
+            <p className="mt-1 py-1 mr-2">Sort by:</p>
             <select
-              className="px-3 py-2 border-gray-400"
+              className="px-3 py-2 mr-7 border-gray-400"
               defaultValue="most-popular"
             >
               <option value="most-popular">Most popular</option>

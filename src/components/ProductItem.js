@@ -28,5 +28,3 @@ export const ProductItem = ({ product }) => {
     </>
   );
 };
-
-//price range,styling,
