@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/github.io/Zataak-se/static/css/main.21e68b72.css",
-    "main.js": "/github.io/Zataak-se/static/js/main.e61d5eee.js",
-    "index.html": "/github.io/Zataak-se/index.html",
-    "main.21e68b72.css.map": "/github.io/Zataak-se/static/css/main.21e68b72.css.map",
-    "main.e61d5eee.js.map": "/github.io/Zataak-se/static/js/main.e61d5eee.js.map"
+    "main.css": "/Zataak-se/static/css/main.21e68b72.css",
+    "main.js": "/Zataak-se/static/js/main.e61d5eee.js",
+    "index.html": "/Zataak-se/index.html",
+    "main.21e68b72.css.map": "/Zataak-se/static/css/main.21e68b72.css.map",
+    "main.e61d5eee.js.map": "/Zataak-se/static/js/main.e61d5eee.js.map"
   },
   "entrypoints": [
     "static/css/main.21e68b72.css",
