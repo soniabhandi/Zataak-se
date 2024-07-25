@@ -77,11 +77,11 @@ const Products = () => {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="flex justify-between px-4 sm:px-6 lg:px-8 py-16 space-x-8">
-      <div className="w-1/4">
+    <div className="flex justify-between px-4 sm:px-6 lg:px-8 py-4 space-x-8">
+      <div className="w-1/4 mt-10 pt-10">
         <FilterPanel filters={filters} onFilterChange={handleFilterChange} />
       </div>
-      <div className="flex-grow max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="flex-grow max-w-2xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center mb-6">
           <h4>Showing {filteredProducts.length} products</h4>
           <div className="flex items-center">
